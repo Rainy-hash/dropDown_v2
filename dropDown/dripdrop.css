@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background:rgba(3, 3, 3, 0.7)
+}
+
+.dropdown-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a:hover {background-color: #5f5f5f;}
+
+.dropdown-content a {
+    display: block;
+    color:rgba(226, 224, 224, 0.7);
+    padding: 5px;
+    text-decoration: none;
+}
+
+.show {display:block;}
+
+/*New standard for my footer element, probably wont change for awhile*/
+footer {
+    font-size: 10px;
+    color: rgba(228, 228, 228, 0.5);
+    margin: 15px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.rainy a {
+    font-size: 10px;
+    text-align: right;
+    color: rgba(3, 3, 3, 0.7);
+    text-decoration: none;
+}
+
+.rainy a:hover {
+    font-style: italic;
+}
